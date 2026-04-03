@@ -4,7 +4,7 @@ import remarkGfm from 'remark-gfm';
 import { Bot, User } from 'lucide-react';
 
 const USER_LABEL = import.meta.env.VITE_USER_LABEL || 'Você';
-const ASSISTANT_LABEL = import.meta.env.VITE_ASSISTANT_LABEL || 'Assistente IA';
+const ASSISTANT_LABEL = import.meta.env.VITE_ASSISTANT_LABEL || 'PI - Assistente Virtual do Projeto Pilares 2';
 
 interface ChatMessageProps {
   message: string;
