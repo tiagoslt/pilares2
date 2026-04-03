@@ -6,7 +6,7 @@ import ErrorMessage from '../components/ErrorMessage';
 import useChat from '../hooks/useChat';
 
 const APP_TITLE = import.meta.env.VITE_APP_TITLE || 'Chat com IA';
-const APP_SUBTITLE = import.meta.env.VITE_APP_SUBTITLE || 'Assistente inteligente do SEPLAN-PI';
+const APP_SUBTITLE = import.meta.env.VITE_APP_SUBTITLE || 'Assistente inteligente do Projeto Pilares 2';
 const WELCOME_TITLE = import.meta.env.VITE_WELCOME_TITLE || 'Bem-vindo ao Chat com Agente Virtual do Projeto Pilares 2';
 const WELCOME_MESSAGE = import.meta.env.VITE_WELCOME_MESSAGE || 'Envie sua primeira mensagem para começar a conversar com o assistente inteligente.';
 const TYPING_MESSAGE = import.meta.env.VITE_TYPING_MESSAGE || 'Assistente está digitando...';
